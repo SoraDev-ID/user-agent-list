@@ -1,0 +1,47 @@
+name: Scheduled User-Agent Auto-Update
+
+on:
+  schedule:
+    # Berjalan otomatis setiap hari Minggu pukul 00:00 UTC (sekali seminggu)
+    - cron: '0 0 * * 0'
+  workflow_dispatch: # Mengizinkan eksekusi manual kapan saja via tombol Run Workflow
+
+permissions:
+  contents: write
+
+jobs:
+  update-user-agents:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: 'pip'
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: Fetch & Categorize User-Agents
+        env:
+          WHATISMYBROWSER_API_KEY: ${{ secrets.WHATISMYBROWSER_API_KEY }}
+        run: |
+          python fetch_user_agents.py
+
+      - name: Commit & Push if changes detected
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          git add data/
+          if git diff --staged --quiet; then
+            echo "Tidak ada perubahan User-Agent baru minggu ini."
+          else
+            git commit -m "chore(auto-update): weekly sync latest user-agents [skip ci]"
+            git push origin main
+          fi
