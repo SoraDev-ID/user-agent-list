@@ -1,13 +1,17 @@
 # 🌐 User-Agent List (Automated & Curated)
 
 [![Python 3.8+](https://img.shields.io/badge/Python-3.8+-3776AB?style=flat-square&logo=python&logoColor=white)](https://www.python.org/)
-[![Auto Update](https://img.shields.io/badge/Auto--Update-Weekly%20(GitHub%20Actions)-10B981?style=flat-square&logo=github-actions&logoColor=white)](#)
+[![Auto Update](https://img.shields.io/badge/Auto--Update-Daily%20(GitHub%20Actions)-10B981?style=flat-square&logo=github-actions&logoColor=white)](#)
 [![License: Apache 2.0](https://img.shields.io/badge/License-Apache%202.0-blue?style=flat-square)](LICENSE)
 [![Status: Maintained](https://img.shields.io/badge/Status-Maintained-3D5AFE?style=flat-square)](#)
 
-Kumpulan daftar **User-Agent (UA) string** terkini dan terverifikasi untuk berbagai peramban desktop, perangkat mobile, sistem operasi, serta in-app browser media sosial. 
+Kumpulan daftar **User-Agent (UA) string** terkini dan terverifikasi untuk berbagai peramban desktop, perangkat mobile, sistem operasi, serta in-app browser media sosial.
 
-Daftar ini diperbarui secara otomatis menggunakan script Python `fetch_user_agents.py` yang terintegrasi dengan berbagai API telemetry publik dan workflow mingguan GitHub Actions.
+**`ua.txt`** (browser umum — Chrome, Firefox, Safari, Edge, desktop & mobile) diperbarui **otomatis setiap hari** via GitHub Actions menggunakan `scraper.py` yang mengambil data langsung dari [useragents.me](https://www.useragents.me/).
+
+File UA **app-specific** (Facebook, Instagram, Twitter/X, UC Browser) dikelola **secara manual** karena tidak ada API publik yang reliabel untuk data tersebut — dan mungkin tidak selalu yang paling mutakhir.
+
+File kategorikal di `data/` (browsers, chrome, firefox, dll.) diperbarui terpisah via `fetch_user_agents.py` yang berjalan mingguan.
 
 ---
 
@@ -178,13 +182,34 @@ WHATISMYBROWSER_API_KEY=masukkan_api_key_anda
 
 ## ⏰ Otomasi Terjadwal (GitHub Actions)
 
-Repository ini telah dilengkapi workflow CI/CD bawaan di `.github/workflows/update-user-agents.yml`.
-- **Jadwal**: Berjalan otomatis setiap **hari Minggu pukul 00:00 UTC**.
-- **Fitur**:
-  - Mengambil data User-Agent terbaru.
-  - Jika ada versi baru, GitHub Actions bot akan otomatis membuat commit dan me-push ke branch `main`.
-  - Jika tidak ada perubahan, tidak ada commit yang dibuat.
-- **Manual Trigger**: Anda juga bisa menjalankan update kapan saja secara manual melalui tab **Actions** &rarr; **Scheduled User-Agent Auto-Update** &rarr; **Run workflow** di GitHub.
+Repository ini memiliki **dua workflow otomasi** yang berjalan secara independen:
+
+### 1. 🤖 `ua.txt` — Update Harian (Browser Umum)
+
+File `.github/workflows/update-ua.yml` menjalankan `scraper.py` setiap hari pukul **03:00 UTC**.
+
+- **Sumber data**: [useragents.me](https://www.useragents.me/) — endpoint `desktop` + `mobile`
+- **Output**: `ua.txt` (satu UA per baris, dedupe, sorted) + `last_updated.txt` (JSON + summary)
+- **Retry**: 3x dengan backoff eksponensial; jika semua sumber gagal → exit non-zero, workflow gagal, file tidak ditimpa
+- **Commit**: Hanya jika `ua.txt` atau `last_updated.txt` berubah (`git diff --staged --quiet`)
+- **Manual trigger**: Tab **Actions** → **Daily User-Agent Auto-Update (ua.txt)** → **Run workflow**
+
+**File yang TIDAK disentuh workflow ini** (tetap dikelola manual):
+
+| File | Keterangan |
+| :--- | :--- |
+| `uaFacebook.txt`, `uafb.txt` | UA Facebook App — tidak ada API publik reliabel |
+| `uame.txt` | UA khusus — dikelola manual |
+| `user-agents_instagram-app_application_android.txt` | UA Instagram App |
+| `user-agents_twitter-app_application.txt` | UA Twitter/X App |
+| `user-agents_uc-browser_browser_13-3.txt` | UA UC Browser versi spesifik |
+| `ua.zip` | Arsip lama — tidak pernah digenerate ulang |
+
+### 2. 📂 `data/` — Update Mingguan (Semua Kategori)
+
+File `.github/workflows/update-user-agents.yml` menjalankan `fetch_user_agents.py` setiap **Minggu pukul 00:00 UTC**, memperbarui seluruh file di folder `data/` (browsers, chrome, firefox, safari, edge, mobile, dll.).
+
+
 
 ---
 

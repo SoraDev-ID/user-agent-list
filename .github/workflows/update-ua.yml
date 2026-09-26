@@ -1,0 +1,51 @@
+﻿name: Daily User-Agent Auto-Update (ua.txt)
+
+on:
+  schedule:
+    # Setiap hari pukul 03:00 UTC — useragents.me update datanya mingguan,
+    # cron harian sudah lebih dari cukup untuk menjaga ua.txt tetap segar.
+    - cron: '0 3 * * *'
+  workflow_dispatch:
+
+concurrency:
+  group: ua-update
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  update-ua:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: 'pip'
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: Run UA Scraper (useragents.me -> ua.txt)
+        run: python scraper.py --timeout 10 --retries 3
+
+      - name: Commit and push changes if updated
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          git add ua.txt last_updated.txt
+          if git diff --staged --quiet; then
+            echo "Tidak ada perubahan UA pada run ini."
+          else
+            git commit -m "chore(auto-update): sync latest user agents [skip ci]"
+            git pull --rebase origin main
+            git push origin main
+          fi
