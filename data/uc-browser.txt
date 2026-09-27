@@ -2640,4 +2640,3 @@ Mozilla/5.0 (Windows; U; Windows NT 5.2; en-US) AppleWebKit/537.36 (KHTML, like 
 Mozilla/5.0 (Windows; U; Windows NT 5.2; en-US) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36 UCBrowser/13.3.8.1305
 Mozilla/5.0 (Windows; U; Windows NT 5.2; en-US) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36 UCBrowser/13.3.8.1305,gzip(gfe)
 Mozilla/5.0 (Windows; U; Windows NT 5.2; en-US) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36 UCBrowser/13.3.9.1119
-UCWEB/2.0 (Symbian; U; S60 V5; ru; NokiaC7-00) U2/1.0.0 UCBrowser/9.0.1.317 U2/1.0.0 Mobile

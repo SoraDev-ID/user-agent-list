@@ -1,46 +1,9 @@
 (KHTML, like Gecko) Safari/413
-<p><b>Explanation:</b> A Nokia X3. String from Ranbdr Ghale - thanks.
-ASTEL/1.0/J-0511.00/c10/smel
-AU-MIC/1.1.4.0 20722 MMP/2.0
-BenQ-CF61/1.00/WAP2.0/MIDP2.0/CLDC1.0 UP.Browser/6.3.0.4.c.1.102 (GUI) MMP/2.0
-Browser/SEMC-Browser/4.2 Profile/MIDP-2.0 Configuration/CLDC-1.1
 Chrome (AppleWebKit/537.1; Chrome50.0; Windows NT 6.3) AppleWebKit/537.36 (KHTML like Gecko) Chrome/51.0.2704.79 Safari/537.36 Edge/14.14393
 Chrome/15.0.860.0 (Windows; U; Windows NT 6.0; en-US) AppleWebKit/533.20.25 (KHTML, like Gecko) Version/15.0.860.0
-Configuration/CLDC-1.1
-Configuration/CLDC-1.1 UP.Link/6.2.3.15.0
-Configuration/CLDC-1.1 UP.Link/6.3.0.0.0
-Cricket-A200/1.0 UP.Browser/6.3.0.7 (GUI) MMP/2.0
-Cricket-A410/1.0 Polaris/v6.17
-DoCoMo/1.0/N503is/c10
-DoCoMo/1.0/P502i/c10 (Google CHTML Proxy/1.0)
-DoCoMo/2.0 SH901iC(c100;TB;W24H12)
-Ext-V-Profile/VSCL-2.0.0
-FacebookExternalHit/1.0
 HTC-ST7377/1.59.502.3 (67150) Opera/9.50 (Windows NT 5.1; U; en) UP.Link/6.3.1.17.0
 HTC_HD2_T8585 Opera/9.7 (Windows NT 5.1; U; en)
 HTC_Touch_Pro_T7272 Opera/9.50 (Windows NT 5.1; U; en)
-J-PHONE/5.0/V801SA/SN123456789012345 SA/0001JP Profile/MIDP-1.0
-KDDI-KC31 UP.Browser/6.2.0.5 (GUI) MMP/2.0
-LG-GS290/V100 Obigo/WAP2.0 Profile/MIDP-2.1 Configuration/CLDC-1.1
-LG-GT400/v10a Browser/Teleca-Q7.1 MMS/LG-MMS-V1.0/1.2 MediaPlayer/LGPlayer/1.0 Java/ASVM/1.1 Profile/MIDP-2.1 Configuration/CLDC-1.1
-LG-LG260 POLARIS-LG260/2.0 MMP/2.0 Profile/MIDP-2.0 Configuration/CLDC-1.1
-LG-LX550 AU-MIC-LX550/2.0 MMP/2.0 Profile/MIDP-2.0 Configuration/CLDC-1.1
-LG/KU990i/v10a Browser/Obigo-Q05A/3.6 MMS/LG-MMS-V1.0/1.2 Java/ASVM/1.0 Profile/MIDP-2.0 Configuration/CLDC-1.1
-LGE-LG290C/1.0[TF268435459307087980000000012298546358] UP.Browser/6.2.3.8 (GUI) MMP/2.0
-LGE-MX380/1.0 UP.Browser/6.2.3.9 (GUI) MMP/2.0
-LGE-VM510 NetFront/3.5.1 (GUI) MMP/2.0
-Links (2.1pre31; Linux 2.6.21-omap1 armv6l; x)
-MAUI WAP Browser
-MOT 24.1 _/00.62 UP.Browser/6.2.3.4.c.1.120 (GUI) MMP/2.0
-MOT-A-1C/01.01 UP.Browser/7.0.0.2.c.1.104 (GUI) MMP/2.0 UP.Link/5.1.2.16
-MOT-COOL0/00.62 UP.Browser/6.2.3.4.c.1.128 (GUI) MMP/2.0
-MOT-E398/0E.20.97R MIB/2.2.2 Profile/MIDP-2.0 Configuration/CLDC-1.1
-MOT-L6/0A.52.45R MIB/2.2.1 Profile/MIDP-2.0 Configuration/CLDC-1.1
-MOT-V3i/08.B4.34R MIB/2.2.1 Profile/MIDP-2.0<br />
-MOT-V3r/08.BD.43R MIB/2.2.1 Profile/MIDP-2.0<br />    Configuration/CLDC-1.1
-MOT-V600/0B.09.38R MIB/2.2 Profile/MIDP-2.0 Configuration/CLDC-1.0
-MOT-V620/0E.65.25R MIB/2.2.1 Profile/MIDP-2.0 Configuration/CLDC-1.0 UP.Link/6.3.1.12.0
-MOT-V9mm/00.62 UP.Browser/6.2.3.4.c.1.123 (GUI) MMP/2.0
 More Firefox 1.0 user agents strings -->>
 More Firefox 1.0.1 user agents strings -->>
 More Firefox 1.0.2 user agents strings -->>
@@ -4535,123 +4498,23 @@ Mozilla/6.0 (Windows; U; Windows NT 6.0; en-US; rv:1.9.0.8) Gecko/2009032609 Fir
 Mozilla/6.0 (Windows; U; Windows NT 6.0; en-US; rv:1.9.0.8) Gecko/2009032609 Firefox/3.0.8 (.NET CLR 3.5.30729)
 Mozilla/6.0 (Windows; U; Windows NT 6.1; en-US) AppleWebKit/532.0 (KHTML, like Gecko) Chrome/3.0.195.27 Safari/532.0
 Mozilla/6.0 (Windows; U; Windows NT 7.0; en-US; rv:1.9.0.8) Gecko/2009032609 Firefox/3.0.9 (.NET CLR 3.5.30729)
-NOKIAN95/UCWEB7.0.2.37/28/800
-Nokia2700c-2/2.0 (07.80) Profile/MIDP-2.1 Configuration/CLDC-1.1 nokia2700c-2/UC Browser7.7.1.88/69/444 UNTRUSTED/1.0
-Nokia2760/2.0 (06.82) Profile/MIDP-2.1 Configuration/CLDC-1.1
-Nokia3120Classic/2.0 (06.20) Profile/MIDP-2.1 Configuration/CLDC-1.1
-Nokia3200/1.0 (5.29) Profile/MIDP-1.0 Configuration/CLDC-1.0<br /> UP.Link/6.3.1.13.0
-Nokia3510i/1.0 (04.44) Profile/MIDP-1.0 Configuration/CLDC-1.0
-Nokia3650/1.0 SymbianOS/6.1 Series60/1.2 Profile/MIDP-1.0 Configuration/CLDC-1.0
-Nokia5130c-2/2.0 (07.97) Profile/MIDP-2.1 Configuration/CLDC-1.1 nokia5130c-2/UC Browser7.5.1.77/69/351 UNTRUSTED/1.0
-Nokia5140/2.0 (3.10) Profile/MIDP-2.0 Configuration/CLDC-1.1
-Nokia6212 classic/2.0 (06.20) Profile/MIDP-2.1 Configuration/CLDC-1.1
-Nokia6230/2.0+(04.43)+Profile/MIDP-2.0+Configuration/CLDC-1.1+UP.Link/6.3.0.0.0
-Nokia6600/1.0 (5.27.0) SymbianOS/7.0s Series60/2.0<br /> Profile/MIDP-2.0 Configuration/CLDC-1
-Nokia6630/1.0 (2.3.129) SymbianOS/8.0 Series60/2.6 Profile/MIDP-2.0 Configuration/CLDC-1.1
-Nokia6680/1.0 (4.04.07) SymbianOS/8.0 Series60/2.6 Profile/MIDP-2.0 Configuration/CLDC-1.1
-Nokia6800/2.0 (4.17) Profile/MIDP-1.0 Configuration/CLDC-1.0 UP.Link/5.1.2.9
-Nokia7250/1.0 (3.14) Profile/MIDP-1.0 Configuration/CLDC-1.0
-Nokia7250I/1.0 (3.22) Profile/MIDP-1.0 Configuration/CLDC-1.0
-Nokia7600/2.0 (03.01) Profile/MIDP-1.0 Configuration/CLDC-1.0 (Google WAP Proxy/1.0)
-Nokia7610/2.0 (5.0509.0) SymbianOS/7.0s Series60/2.1 Profile/MIDP-2.0 Configuration/CLDC-1.0
-Nokia8310/1.0 (05.11) UP.Link/6.5.0.0.06.5.0.0.06.5.0.0.06.5.0.0.0
-NokiaN-Gage/1.0 SymbianOS/6.1 Series60/1.2 Profile/MIDP-1.0 Configuration/CLDC-1.0
-NokiaN70-1/5.0737.3.0.1 Series60/2.8 Profile/MIDP-2.0 Configuration/CLDC-1.1/UC Browser7.8.0.95/27/352
-NokiaN80-3/1.0552.0.7Series60/3.0Profile/MIDP-2.0Configuration/CLDC-1.1
-NokiaN90-1/3.0545.5.1 Series60/2.8 Profile/MIDP-2.0 Configuration/CLDC-1.1
-NokiaX3-02/5.0 (05.65) Profile/MIDP-2.1 Configuration/CLDC-1.1 UNTRUSTED/1.0/p>
-OPENWAVE UNTRUSTED/1.0
-OPWV-SDK UP.Browser/7.0.2.3.119 (GUI) MMP/2.0 Push/PO
 Opera 6.0[en]Nokia/Series-9300
 Opera/9.00 (Nintendo Wii; U; ; 1309-9; en)
 Opera/9.10 (Nintendo Wii; U; ; 1621; en)
 Opera/9.30 (Nintendo Wii; U; ; 2047-7; en)
-PDXGW/1.0 (TX=8;TY=6;GX=96;GY=64;C=G2;G=B2;GI=0)
-POLARIS/6.01(BREW 3.1.5;U;en-us;LG;LX265;POLARIS/6.01/WAP;)MMP/2.0 profile/MIDP-201 Configuration /CLDC-1.1
 Palm680/RC1 Mozilla/4.0 (compatible; MSIE 6.0; Windows 98;
 PalmCentro/v0001 Mozilla/4.0 (compatible; MSIE 6.0; Windows 98; PalmSource/Palm-D061; Blazer/4.5) 16;320x320
-PalmSource/Palm-D053; Blazer/4.5) 16;320x320 UP.Link/6.3.1.17.0
-PalmSource/Palm-D053; Blazer/4.5) 16;320x320 UP.Link/6.3.1.17.06.3.1.17.0
-Profile/MIDP-2.0 Configuration/CLDC-1.1
 Profile/MIDP-2.0 Configuration/CLDC-1.1 ) AppleWebKit/413
-Profile/MIDP-2.0 Configuration/CLDC-1.1 Ext-J-Profile/JSCL-1.2.2<br />
-ReqwirelessWeb/3.2 S55
-SAGEM-myX5-2/1.0 Profile/MIDP-2.0 Configuration/CLDC-1.0
-SAMSUNG-GT-S3310/1.0 SHP/VPP/R5 NetFront/3.4 SMM-MMS/1.2.0 profile/MIDP-2.0 configuration/CLDC-1.1
-SAMSUNG-S8003/1.0 SHP/VPP/R5 Jasmine/1.0 Nextreaming SMM-MMS/1.2.0 profile/MIDP-2.1 configuration/CLDC-1.1
-SAMSUNG-SGH-A737/UCGI3 SHP/VPP/R5 NetFront/3.4 SMM-MMS/1.2.0 profile/MIDP-2.0 configuration/CLDC-1.1 UP.Link/6.3.0.0.0
-SAMSUNG-SGH-A867/A867UCHJ3 SHP/VPP/R5 NetFront/35 SMM-MMS/1.2.0 profile/MIDP-2.0 configuration/CLDC-1.1 UP.Link/6.3.0.0.0
-SAMSUNG-SGH-D900/1.0 Profile/MIDP-2.0 Configuration/CLDC-1.1
-SAMSUNG-SGH-D900/1.0 Profile/MIDP-2.0 Configuration/CLDC-1.1 UP.Browser/6.2.3.3.c.1.101 (GUI) MMP/2.0
-SAMSUNG-SGH-T401G/T401UDJD2 NetFront/3.4 Profile/MIDP-2.0 Configuration/CLDC-1.1[TF356986033869900000000017602160239]
-SAMSUNG-SGH-i900/1.0 (compatible; MSIE 4.01; Windows CE; PPC)/UC Browser7.7.1.88
-SCH-A950+UP.Browser/6.2.3.2+(GUI)+MMP/2.0
-SEC-SGHE600 UP.Link/6.3.1.12.0
-SEC-SGHE900/1.0 NetFront/3.2 Profile/MIDP-2.0 Configuration/CLDC-1.1<br />
-SHARP-TQ-GX10i/1.0 Profile/MIDP-1.0 Configuration/CLDC-1.0<br /> UP.Browser/6.1.0.6.1.d.1 (GUI) MMP/1.0
-SIE-ME45/05 UP.Browser/5.0.1.1.102 (GUI)
-SIE-S55/16 UP.Browser/6.1.0.5.c.4 (GUI) MMP/1.0 UP.Link/5.1.2.10
-SIE-S65/12 UP.Browser/7.0.0.1.c3 (GUI) MMP/2.0 Profile/MIDP-2.0 Configuration/CLDC-1.1 UP.Link/5.1.2.16
 Safari/528.5+) Version/4.0 Kindle/3.0 (screen 600X800; rotate)
-Samsung-SPHM800 AU-MIC-M800/2.0 MMP/2.0 Profile/MIDP-2.0 Configuration/CLDC-1.1 UNTRUSTED/1.0
 SonyEricssonG700/R100 Mozilla/4.0 (compatible; MSIE 6.0; Symbian OS; 958) Opera 8.65 [ru]
-SonyEricssonK550i/R1JD Browser/NetFront/3.3
-SonyEricssonK608i/R2L/SN356841000828910
-SonyEricssonK610i/R1CB Browser/NetFront/3.3 Profile/MIDP-2.0 Configuration/CLDC-1.1
-SonyEricssonK610i/R1CB Browser/NetFront/3.3 Profile/MIDP-2.0<br />
-SonyEricssonK700i/R2N SEMC-Browser/4.0.1 Profile/MIDP-2.0<br />
-SonyEricssonK800i/R8BF Browser/NetFront/3.3 Profile/MIDP-2.0 Configuration/CLDC-1.1
 SonyEricssonP1i/R100 Mozilla 4.0 (compatibile; MSIE 6.0; Symbian OS;768) Opera 8.65 [hr]
-SonyEricssonT200/R101
-SonyEricssonT280i/R1CB002 TelecaBrowser/Q04C1-1 Profile/MIDP-2.0 Configuration/CLDC-1.1
-SonyEricssonW595/R3EA Browser/NetFront/3.4 Profile/MIDP-2.1 Configuration/CLDC-1.1 JavaPlatform/JP-8.3.3
-SonyEricssonW850i/R1ED Browser/NetFront/3.3
-TELECA-/2.0 (BREW 3.1.5; U; EN-US;SAMSUNG; SPH-M800; Teleca/Q05A/INT) MMP/2.0 Profile/MIDP-2.1 Configuration/CLDC-1.1
-UP.Browser/3.04-TS14 UP.Link/3.4.4
-UP.Browser/6.1.0.1.140 (Google CHTML Proxy/1.0)
-UP.Browser/6.2.2.6.d.3 (GUI) MMP/1.0
-UP.Browser/6.2.3.3.c.1.101 (GUI) MMP/2.0 UP.Link/6.3.1.12.0
-UPG1 UP/4.0 (compatible; Blazer 1.0)
 User-Agent:Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:1.8.1.13) Gecko/20080311 Firefox/2.0.0.13
-Vodafone/1.0/703SH/SHG001 Browser/UP.Browser/7.0.2.1<br />
 Vodafone/1.0/HTC_prophet/2.15.3.113/Mozilla/4.0 (compatible; MSIE 4.01; Windows CE; PPC; 240x320)
-Vodafone/1.0/V802SE/SEJ001 Browser/SEMC-Browser/4.1
 XV6850 Opera/9.50 (Windows NT 5.1; U; en)
-Xiino/1.0.9E [en] (v. 4.1; 153x130; g4)
-facebookexternalhit/1.1
-facebookexternalhit/1.1 (+http://www.facebook.com/externalhit_uatext.php)
-facebookexternalhit/1.1 (+http://www.facebook.com/externalhit_uatext.php) Trident/7.0; Sleipnir6/6.4.4; SleipnirSiteUpdates/6.4.4)
-facebookexternalhit/1.1 (+http://www.facebook.com/externalhit_uatext.php) [ip:213.32.4.102]
-facebookexternalhit/1.1 (+http://www.facebook.com/externalhit_uatext.php) [ip:213.32.4.115]
-facebookexternalhit/1.1 (+http://www.facebook.com/externalhit_uatext.php) [ip:213.32.4.211]
-facebookexternalhit/1.1 (+http://www.facebook.com/externalhit_uatext.php) [ip:213.32.4.224]
-facebookexternalhit/1.1 (+http://www.facebook.com/externalhit_uatext.php) [ip:213.32.4.245]
-facebookexternalhit/1.1 (+http://www.facebook.com/externalhit_uatext.php) [ip:213.32.4.247]
-facebookexternalhit/1.1 (+http://www.facebook.com/externalhit_uatext.php) [ip:213.32.4.81]
-facebookexternalhit/1.1 (+http://www.facebook.com/externalhit_uatext.php) [ip:213.32.4.95]
-facebookexternalhit/1.1 (+http://www.facebook.com/externalhit_uatext.php) [ip:31.13.127.3]
-facebookexternalhit/1.1 (+http://www.facebook.com/externalhit_uatext.php) _zbot
-facebookexternalhit/1.1 (+https://www.facebook.com/externalhit_uatext.php)
-facebookexternalhit/1.1 (compatible; Blueno/1.0; +http://naver.me/scrap)
 facebookexternalhit/1.1(+http://www.facebook.com/externalhit_uatext.php)+Chromium/80.0.3987.163 Chrome/80.0.3987.163 Safari/537.36
 facebookexternalhit/1.1; Mozilla/5.0 (compatible; NaverTalk/1.0) ogcrawler
 facebookexternalhit/1.1; Mozilla/5.0 (compatible; WorksOgCrawler/1.0.0;)
-facebookexternalhit/1.1; kakaotalk-scrap/1.0; +https://devtalk.kakao.com/t/scrap/33984,gzip(gfe)
-facebookexternalhit/1.1;between-scrap/1.0
-facebookexternalhit/1.1;kakaotalk-scrap/1.0; +https://devtalk.kakao.com/t/scrap/33984
-facebookexternalhit/1.1;line-poker/1.0
-facebookexternalhit/1.1;line-poker/1.0,gzip(gfe)
-facebookexternalhit/1.1;scrapbook-scraper/1.0; +https://blog.naver.com/whaleteam/221250531643
-facebookexternalhit/1.2 (+http://www.facebook.com/externalhit_uatext.php)
 htc_touch_pro2_t7373 opera/9.50 (windows nt 5.1; u; de)
 http://www.useragentstring.com/Firefox25.0_id_19710.php
-mot-V3/OE.40.79R MIB/2.2.1 profile/MIDP-2.0 configuration/CLDC-1.0 UP.Link/6.2.3.15.0
 mozilla/3.0 (Windows NT 6.1; rv:2.0.1) Gecko/20100101 Firefox/5.0.1
-nook browser/1.0
-sam-r350 UP.Browser/6.2.3.8 (GUI) MMP/2.0
-sam-r380 UP.Browser/6.2.3.8 (GUI) MMP/2.0
 samr810 Netfront/3.4 Mozilla/5.0 like Gecko/20060426
-samsung sgh-e900 /netfront 3.2
-samsung-gt-s5620/UC Browser7.9.0.102/69/352 UNTRUSTED/1.0
-sonyericssonk800i/UC Browser7.9.0.102/70/352
-sonyericssonk800i/UC Browser8.0.3.107/70/352
